@@ -67,7 +67,7 @@ async function run() {
                 ...query,
                 'price.perNight': { $gte: lowerPrice, $lte:upperPrice  }
             };
-            console.log('inside values',query)
+            // console.log('inside values',query)
         }
         
         // Add amenities to query if selectedAmenities are provided
@@ -79,7 +79,7 @@ async function run() {
         }
         
         // Now `query` contains the conditions for price range and selected amenities
-        console.log(query);
+        // console.log(query);
     
         
 
@@ -104,7 +104,40 @@ async function run() {
 
   
         
-    })
+    });
+
+    //getting search data 
+    app.get('/locations', async (req, res) => {
+        const search = req.query.search; 
+
+        // console.log(search);
+    
+        try {
+            // Fetch locations from the database according to the search query
+            const query = search
+                ? {
+                      $or: [
+                          { "location.city": { $regex: search, $options: 'i' } },
+                          { "location.state": { $regex: search, $options: 'i' } },
+                          { "location.country": { $regex: search, $options: 'i' } },
+                      ],
+                  }
+                : {}; 
+    
+            const locations = await listingsCollection.find(query, { projection: { location: 1 } }).limit(3).toArray();
+            
+           
+            const formattedLocations = locations.map(location => ({
+                id: location._id,
+                label: `${location.location.city}, ${location.location.state}, ${location.location.country}`,
+            }));
+    
+            res.send(formattedLocations);
+        } catch (error) {
+            console.error(error);
+            res.status(500).send({ error: "Failed to fetch locations" });
+        }
+    });
       
 
 
