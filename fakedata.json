@@ -1,0 +1,248 @@
+{
+    "listings": [
+      {
+       
+        "title": "Cozy Cottage in the Mountains",
+        "category": "Camping",
+        "location": {
+          "city": "Denver",
+          "state": "Colorado",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 150,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.8,
+          "reviewsCount": 125
+        },
+        "host": {
+          "name": "John Doe",
+          "avatarUrl": "https://example.com/avatar.jpg",
+          "isSuperhost": true
+        },
+        "amenities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Kitchen",
+          "Free Parking"
+        ],
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?cs=srgb&dl=pexels-fotoaibe-1571458.jpg&fm=jpg",
+            "alt": "Living room with a view"
+          },
+          {
+            "url": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?cs=srgb&dl=pexels-jvdm-1454806.jpg&fm=jpg",
+            "alt": "Cozy bedroom"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjX5qS0kBjzqMIH6H63BCeXNP2PVG1QZPXQ&s",
+            "alt": "Cozy bedroom"
+          }
+          ,
+          {
+            "url": "https://img.freepik.com/free-photo/bedroom-background-zoom-calls_52683-95239.jpg",
+            "alt": "Cozy bedroom"
+          }
+        ],
+        "description": "A beautiful cottage nestled in the mountains, perfect for a weekend getaway.",
+        "bookedDates": ["2024-10-15", "2024-10-16", "2024-10-17"]
+      },
+      {
+        
+        "title": "Modern Apartment Downtown",
+        "category": "Luxe",
+        "location": {
+          "city": "New York",
+          "state": "New York",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 250,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.9,
+          "reviewsCount": 200
+        },
+        "host": {
+          "name": "Sarah Smith",
+          "avatarUrl": "https://example.com/avatar2.jpg",
+          "isSuperhost": true
+        },
+        "amenities": [
+          "Wi-Fi",
+          "Washer",
+          "Elevator",
+          "Gym"
+        ],
+        "images": [
+          {
+            "url": "https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727913600&semt=ais_hybrid",
+            "alt": "Stylish living room"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvL4PB7zpiZOxITJjq-3HL4OuTNOyN5GWhw&s",
+            "alt": "Bedroom with city view"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-LGmKOVBvXePtzhqM3UQ-fQdRmjm3HYM0g&s",
+            "alt": "Bedroom with city view"
+          }
+          ,
+          {
+            "url": "https://st4.depositphotos.com/2673929/27256/i/450/depositphotos_272565124-stock-photo-white-and-black-bedroom-with.jpg",
+            "alt": "Bedroom with city view"
+          }
+        ],
+        "description": "A chic modern apartment in the heart of downtown with stunning city views.",
+        "bookedDates": ["2024-10-20", "2024-10-21", "2024-10-22"]
+      },
+      {
+       
+        "title": "Beachfront Villa with Pool",
+        "category": "Beachfront",
+        "location": {
+          "city": "Miami",
+          "state": "Florida",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 500,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.7,
+          "reviewsCount": 85
+        },
+        "host": {
+          "name": "Emily Davis",
+          "avatarUrl": "https://example.com/avatar3.jpg",
+          "isSuperhost": true
+        },
+        "amenities": [
+          "Wi-Fi",
+          "Pool",
+          "Beach Access",
+          "Barbecue Grill"
+        ],
+        "images": [
+          {
+            "url": "https://img.freepik.com/free-photo/swimming-pool-with-sea-views_74190-16276.jpg",
+            "alt": "Private pool with ocean view"
+          }
+          ,
+          {
+            "url": "https://img.freepik.com/free-photo/bedroom-with-ocean-view_1268-36011.jpg",
+            "alt": "Luxury bedroom"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hzGRFz_iO767ynqTLUcx8Uc_hlxl6-rgYu3ZkUsFCyk2vzf0fhFlmfpmeMe2kzIj_xM&usqp=CAU",
+            "alt": "Luxury bedroom"
+          }
+        ],
+        "description": "A stunning beachfront villa with a private pool and direct beach access.",
+        "bookedDates": ["2024-11-10", "2024-11-11", "2024-11-12"]
+      },
+      {
+        
+        "title": "Rustic Cabin in the Woods",
+        "category": "Countryside",
+        "location": {
+          "city": "Asheville",
+          "state": "North Carolina",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 120,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.6,
+          "reviewsCount": 60
+        },
+        "host": {
+          "name": "Michael Johnson",
+          "avatarUrl": "https://example.com/avatar4.jpg",
+          "isSuperhost": false
+        },
+        "amenities": [
+          "Fireplace",
+          "Wi-Fi",
+          "Hot Tub",
+          "Outdoor Seating"
+        ],
+        "images": [
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWOfuVrjQ0EKDRcejNj8zikS4VInKHK2ZGQ&s",
+            "alt": "Cabin with fire pit"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8OnCmFPXq556ySBrC8r55o-2JfYR9HAYhA&s",
+            "alt": "Rustic bedroom"
+          }
+          ,
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcIKIJRNpOu_PNCsxgEpXcbP8qWGX6izvCw&s",
+            "alt": "Rustic bedroom"
+          }
+        ],
+        "description": "A cozy cabin in the woods with a fire pit and hot tub for a relaxing retreat.",
+        "bookedDates": ["2024-12-01", "2024-12-02", "2024-12-03"]
+      },
+      {
+       
+        "title": "Luxury Villa by the Sea",
+        "category": "Amazing pools",
+        "location": {
+          "city": "Los Angeles",
+          "state": "California",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 600,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.9,
+          "reviewsCount": 150
+        },
+        "host": {
+          "name": "Alice Green",
+          "avatarUrl": "https://example.com/avatar5.jpg",
+          "isSuperhost": true
+        },
+        "amenities": [
+          "Wi-Fi",
+          "Pool",
+          "Private Chef"
+        ],
+        "images": [
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMv_OPYJoRUgDJ5oLWSY_EQIfeIfzds9GRdMtlo9WBJbAqVzAp1R4swgi5EE-N5U82ZUU&usqp=CAU",
+            "alt": "Spacious villa with ocean view"
+          }
+          ,
+          {
+            "url": "https://static.vecteezy.com/system/resources/previews/024/263/922/large_2x/cosy-bedroom-in-the-english-countryside-style-generative-ai-photo.jpg",
+            "alt": "Luxurious bedroom"
+          }
+          ,
+          {
+            "url": "https://static.vecteezy.com/system/resources/previews/022/899/907/large_2x/interior-of-modern-bedroom-with-black-walls-concrete-floor-comfortable-king-size-bed-with-yellow-and-orange-pillows-and-window-with-countryside-view-ai-generated-free-photo.jpg",
+            "alt": "Luxurious bedroom"
+          }
+        ],
+        "description": "A luxurious villa by the sea, perfect for a private and lavish vacation.",
+        "bookedDates": ["2024-12-20", "2024-12-21", "2024-12-22"]
+      }
+    ]
+  }
+  
