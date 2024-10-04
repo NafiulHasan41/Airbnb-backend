@@ -48,6 +48,15 @@ async function run() {
         const lowerPrice = values[0] ? Number(values[0]) : null;
         const upperPrice = values[1] ? Number(values[1]) : null;
 
+        //search query
+        const checkIn= req.query.checkIn;
+        const checkOut= req.query.checkOut;
+        const guestCount= parseInt(req.query.guestCount);
+        const formattedLocation = req.query.s_value;
+        
+
+        // console.log(checkIn, checkOut, guestCount,formattedLocation);
+
 
         //need to handle the query 
         let query = {};
@@ -77,7 +86,41 @@ async function run() {
                 amenities: { $all: selectedAmenities }
             };
         }
-        
+
+        // Add check-in and check-out dates to the query if they are provided
+        if (checkIn && checkOut) {
+            query = {
+                ...query,
+                bookedDates: {
+                    $not: {
+                        $elemMatch: {
+                            $gte: new Date(checkIn),
+                            $lte: new Date(checkOut)
+                        }
+                    }
+                }
+            };
+        }
+
+        // Add guest count to the query if it is provided
+        if (guestCount) {
+            query = {
+                ...query,
+                guestCount: { $gte: guestCount }
+            };
+        }
+
+        // Add location components to the query
+        if (formattedLocation) {
+            const [city, state, country] = formattedLocation?.split(',').map(part => part.trim());
+            query = {
+                ...query,
+                "location.city": city,
+                "location.state": state,
+                "location.country": country
+            };
+}
+
         // Now `query` contains the conditions for price range and selected amenities
         // console.log(query);
     
@@ -124,7 +167,7 @@ async function run() {
                   }
                 : {}; 
     
-            const locations = await listingsCollection.find(query, { projection: { location: 1 } }).limit(3).toArray();
+            const locations = await listingsCollection.find(query, { projection: { location: 1 } }).limit(5).toArray();
             
            
             const formattedLocations = locations.map(location => ({
@@ -141,8 +184,8 @@ async function run() {
       
 
 
-      await client.db("admin").command({ ping: 1 });
-      console.log("Pinged your deployment. You successfully connected to MongoDB!");
+    //   await client.db("admin").command({ ping: 1 });
+    //   console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
       // Ensures that the client will close when you finish/error
     //   await client.close();

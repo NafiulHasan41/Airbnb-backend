@@ -1,7 +1,6 @@
 {
     "listings": [
       {
-       
         "title": "Cozy Cottage in the Mountains",
         "category": "Camping",
         "location": {
@@ -25,8 +24,7 @@
         "amenities": [
           "Wi-Fi",
           "Air Conditioning",
-          "Kitchen",
-          "Free Parking"
+          "Kitchen"
         ],
         "images": [
           {
@@ -36,23 +34,21 @@
           {
             "url": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?cs=srgb&dl=pexels-jvdm-1454806.jpg&fm=jpg",
             "alt": "Cozy bedroom"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjX5qS0kBjzqMIH6H63BCeXNP2PVG1QZPXQ&s",
             "alt": "Cozy bedroom"
-          }
-          ,
+          },
           {
             "url": "https://img.freepik.com/free-photo/bedroom-background-zoom-calls_52683-95239.jpg",
             "alt": "Cozy bedroom"
           }
         ],
         "description": "A beautiful cottage nestled in the mountains, perfect for a weekend getaway.",
-        "bookedDates": ["2024-10-15", "2024-10-16", "2024-10-17"]
+        "bookedDates": ["2024-10-15", "2024-10-16", "2024-10-17"],
+        "guestCount": 4
       },
       {
-        
         "title": "Modern Apartment Downtown",
         "category": "Luxe",
         "location": {
@@ -75,36 +71,33 @@
         },
         "amenities": [
           "Wi-Fi",
-          "Washer",
-          "Elevator",
-          "Gym"
+          "Air Conditioning",
+          "Dryer",
+          "Kitchen"
         ],
         "images": [
           {
             "url": "https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727913600&semt=ais_hybrid",
             "alt": "Stylish living room"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvL4PB7zpiZOxITJjq-3HL4OuTNOyN5GWhw&s",
             "alt": "Bedroom with city view"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-LGmKOVBvXePtzhqM3UQ-fQdRmjm3HYM0g&s",
             "alt": "Bedroom with city view"
-          }
-          ,
+          },
           {
             "url": "https://st4.depositphotos.com/2673929/27256/i/450/depositphotos_272565124-stock-photo-white-and-black-bedroom-with.jpg",
             "alt": "Bedroom with city view"
           }
         ],
         "description": "A chic modern apartment in the heart of downtown with stunning city views.",
-        "bookedDates": ["2024-10-20", "2024-10-21", "2024-10-22"]
+        "bookedDates": ["2024-10-20", "2024-10-21", "2024-10-22"],
+        "guestCount": 2
       },
       {
-       
         "title": "Beachfront Villa with Pool",
         "category": "Beachfront",
         "location": {
@@ -128,30 +121,27 @@
         "amenities": [
           "Wi-Fi",
           "Pool",
-          "Beach Access",
-          "Barbecue Grill"
+          "Air Conditioning"
         ],
         "images": [
           {
             "url": "https://img.freepik.com/free-photo/swimming-pool-with-sea-views_74190-16276.jpg",
             "alt": "Private pool with ocean view"
-          }
-          ,
+          },
           {
             "url": "https://img.freepik.com/free-photo/bedroom-with-ocean-view_1268-36011.jpg",
             "alt": "Luxury bedroom"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hzGRFz_iO767ynqTLUcx8Uc_hlxl6-rgYu3ZkUsFCyk2vzf0fhFlmfpmeMe2kzIj_xM&usqp=CAU",
             "alt": "Luxury bedroom"
           }
         ],
         "description": "A stunning beachfront villa with a private pool and direct beach access.",
-        "bookedDates": ["2024-11-10", "2024-11-11", "2024-11-12"]
+        "bookedDates": ["2024-11-10", "2024-11-11", "2024-11-12"],
+        "guestCount": 8
       },
       {
-        
         "title": "Rustic Cabin in the Woods",
         "category": "Countryside",
         "location": {
@@ -173,32 +163,29 @@
           "isSuperhost": false
         },
         "amenities": [
-          "Fireplace",
           "Wi-Fi",
-          "Hot Tub",
-          "Outdoor Seating"
+          "Air Conditioning",
+          "Dryer"
         ],
         "images": [
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWOfuVrjQ0EKDRcejNj8zikS4VInKHK2ZGQ&s",
             "alt": "Cabin with fire pit"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8OnCmFPXq556ySBrC8r55o-2JfYR9HAYhA&s",
             "alt": "Rustic bedroom"
-          }
-          ,
+          },
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcIKIJRNpOu_PNCsxgEpXcbP8qWGX6izvCw&s",
             "alt": "Rustic bedroom"
           }
         ],
         "description": "A cozy cabin in the woods with a fire pit and hot tub for a relaxing retreat.",
-        "bookedDates": ["2024-12-01", "2024-12-02", "2024-12-03"]
+        "bookedDates": ["2024-12-01", "2024-12-02", "2024-12-03"],
+        "guestCount": 3
       },
       {
-       
         "title": "Luxury Villa by the Sea",
         "category": "Amazing pools",
         "location": {
@@ -222,26 +209,21 @@
         "amenities": [
           "Wi-Fi",
           "Pool",
-          "Private Chef"
+          "Air Conditioning"
         ],
         "images": [
           {
             "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMv_OPYJoRUgDJ5oLWSY_EQIfeIfzds9GRdMtlo9WBJbAqVzAp1R4swgi5EE-N5U82ZUU&usqp=CAU",
             "alt": "Spacious villa with ocean view"
-          }
-          ,
+          },
           {
-            "url": "https://static.vecteezy.com/system/resources/previews/024/263/922/large_2x/cosy-bedroom-in-the-english-countryside-style-generative-ai-photo.jpg",
-            "alt": "Luxurious bedroom"
-          }
-          ,
-          {
-            "url": "https://static.vecteezy.com/system/resources/previews/022/899/907/large_2x/interior-of-modern-bedroom-with-black-walls-concrete-floor-comfortable-king-size-bed-with-yellow-and-orange-pillows-and-window-with-countryside-view-ai-generated-free-photo.jpg",
-            "alt": "Luxurious bedroom"
+            "url": "https://img.freepik.com/free-photo/3d-render-of-modern-bedroom-with-ocean-view-free-photo.jpg",
+            "alt": "Modern bedroom with ocean view"
           }
         ],
-        "description": "A luxurious villa by the sea, perfect for a private and lavish vacation.",
-        "bookedDates": ["2024-12-20", "2024-12-21", "2024-12-22"]
+        "description": "A luxury villa with an infinity pool overlooking the sea, perfect for a lavish vacation.",
+        "bookedDates": ["2024-12-20", "2024-12-21", "2024-12-22"],
+        "guestCount": 6
       }
     ]
   }
