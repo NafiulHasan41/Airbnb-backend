@@ -43,12 +43,44 @@ async function run() {
 
         const totalBeforeTaxes = req.query.displayTotalBeforeTaxes;
         const category = req.query.category;
+        const values = req.query.values ? req.query.values.split(',') : [];
+        const selectedAmenities = req.query.selectedAmenities ? req.query.selectedAmenities.split(',') : [];
+        const lowerPrice = values[0] ? Number(values[0]) : null;
+        const upperPrice = values[1] ? Number(values[1]) : null;
+
 
         //need to handle the query 
         let query = {};
         if (category && category !== "All Listings") {
             query = { category: category };
         }
+        
+        // console.log(lowerPrice, upperPrice);
+        // console.log(typeof values);
+        // console.log(selectedAmenities);
+        // console.log(typeof selectedAmenities);
+
+        // Add price range to query if values are provided
+        if (values && values.length > 1) {
+      
+            query = {
+                ...query,
+                'price.perNight': { $gte: lowerPrice, $lte:upperPrice  }
+            };
+            console.log('inside values',query)
+        }
+        
+        // Add amenities to query if selectedAmenities are provided
+        if (selectedAmenities.length > 0) {
+            query = {
+                ...query,
+                amenities: { $all: selectedAmenities }
+            };
+        }
+        
+        // Now `query` contains the conditions for price range and selected amenities
+        console.log(query);
+    
         
 
         const listings = await listingsCollection.find(query).toArray();
@@ -64,7 +96,7 @@ async function run() {
         
 
 
-
+        
 
         res.send(listings);
         // console.log(listings);
