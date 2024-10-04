@@ -41,10 +41,27 @@ async function run() {
     // getting all the listing
     app.get('/listings', async (req, res) => {
 
+        const totalBeforeTaxes = req.query.displayTotalBeforeTaxes;
+
 
         const listings = await listingsCollection.find().toArray();
+
+        // to handle the total before taxes 
+        
+        if (totalBeforeTaxes === 'true') {
+            listings.forEach((listing) => {
+                listing.totalPriceBeforeTaxes =  listing?.price?.perNight * listing?.bookedDates?.length;
+                // console.log(listing.totalPriceBeforeTaxes);
+            });
+        }
+        
+
+
+
+
         res.send(listings);
         // console.log(listings);
+       
 
   
         
