@@ -11,7 +11,7 @@ const port = process.env.PORT || 4000;
 
 // middleware
 const corsOptions = {
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000','https://symphonious-rabanadas-4f10f9.netlify.app'],
   }
   app.use(cors(corsOptions));
   app.use(express.json());
