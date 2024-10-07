@@ -11,7 +11,7 @@ const port = process.env.PORT || 4000;
 
 // middleware
 const corsOptions = {
-    origin: ['http://localhost:3000','https://symphonious-rabanadas-4f10f9.netlify.app'],
+    origin: ['http://localhost:3000','https://symphonious-rabanadas-4f10f9.netlify.app','https://airbnb-frontend-black.vercel.app'],
   }
   app.use(cors(corsOptions));
   app.use(express.json());
@@ -57,6 +57,12 @@ async function run() {
 
         // console.log(checkIn, checkOut, guestCount,formattedLocation);
 
+        // for filter bedroomCount, bedsCount, bathroomCount
+        const bedroomCount = parseInt(req.query.bedroomCount);
+        const bedsCount = parseInt(req.query.bedsCount);
+        const bathroomCount = parseInt(req.query.bathroomCount);
+       
+        // console.log(typeof bedroomCount, typeof bedsCount, typeof bathroomCount);
 
         //need to handle the query 
         let query = {};
@@ -102,13 +108,7 @@ async function run() {
             };
         }
 
-        // Add guest count to the query if it is provided
-        if (guestCount) {
-            query = {
-                ...query,
-                guestCount: { $gte: guestCount }
-            };
-        }
+        
 
         // Add location components to the query
         if (formattedLocation) {
@@ -119,7 +119,37 @@ async function run() {
                 "location.state": state,
                 "location.country": country
             };
-}
+        }
+              
+            // Add guest count to the query if it is provided
+        if (guestCount) {
+            query = {
+                ...query,
+                guestCount: { $gte: guestCount }
+            };
+        }
+            // query for bedrooms
+            if(bedroomCount){
+                query = {
+                    ...query,
+                    bedrooms: { $gte: bedroomCount }
+                };
+            }
+            // query for beds
+            if(bedsCount){
+                query = {
+                    ...query,
+                    beds: { $gte: bedsCount }
+                };
+            }
+            // query for bathrooms
+            if(bathroomCount){
+                query = {
+                    ...query,
+                    bathrooms: { $gte: bathroomCount }
+                };
+            }
+       
 
         // Now `query` contains the conditions for price range and selected amenities
         // console.log(query);
@@ -152,8 +182,6 @@ async function run() {
     //getting search data 
     app.get('/locations', async (req, res) => {
         const search = req.query.search; 
-
-        // console.log(search);
     
         try {
             // Fetch locations from the database according to the search query
@@ -169,19 +197,70 @@ async function run() {
     
             const locations = await listingsCollection.find(query, { projection: { location: 1 } }).limit(5).toArray();
             
-           
             const formattedLocations = locations.map(location => ({
                 id: location._id,
                 label: `${location.location.city}, ${location.location.state}, ${location.location.country}`,
             }));
     
-            res.send(formattedLocations);
+            // Remove duplicates
+            const uniqueLocations = [];
+            const labels = new Set();
+            for (const loc of formattedLocations) {
+                if (!labels.has(loc.label)) {
+                    labels.add(loc.label);
+                    uniqueLocations.push(loc);
+                }
+            }
+    
+            res.send(uniqueLocations);
         } catch (error) {
             console.error(error);
             res.status(500).send({ error: "Failed to fetch locations" });
         }
     });
       
+    // this for price range 
+    const priceRanges = [
+        { min: 0, max: 50 },
+        { min: 51, max: 100 },
+        { min: 101, max: 150 },
+        { min: 151, max: 200 },
+        { min: 201, max: 250 },
+        { min: 251, max: 300 },
+        { min: 301, max: 350 },
+        { min: 351, max: 400 },
+        { min: 401, max: 450 },
+        { min: 451, max: 500 },
+        { min: 501, max: 550 },
+        { min: 551, max: 600 },
+        { min: 601, max: 650 },
+        { min: 651, max: 700 },
+        { min: 701, max: 750 },
+        { min: 751, max: 800 },
+        { min: 801, max: 850 },
+        { min: 851, max: 900 },
+        { min: 901, max: 950 },
+        { min: 951, max: 1000 }
+    ];
+    app.get('/price-range-count', async (req, res) => {
+        try {
+            const counts = await Promise.all(priceRanges.map(async (range) => {
+                const count = await listingsCollection.countDocuments({
+                    'price.perNight': {
+                        $gte: range.min,
+                        $lte: range.max
+                    }
+                });
+                return { priceRange: [range.min, range.max], count };
+            }));
+    
+            res.send(counts);
+            // console.log(counts)
+        } catch (error) {
+            console.error(error);
+            res.status(500).send({ error: "Failed to fetch price range counts" });
+        }
+    });
 
 
     //   await client.db("admin").command({ ping: 1 });

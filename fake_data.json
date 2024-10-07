@@ -1,0 +1,1535 @@
+[
+    {
+    "_id": "6700626deadc623d9f695e18",
+    "title": "Cozy Cottage in the Mountains",
+    "category": "Camping",
+    "location": {
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 150,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 125
+    },
+    "host": {
+    "name": "John Doe",
+    "avatarUrl": "https://example.com/avatar.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?cs=srgb&dl=pexels-fotoaibe-1571458.jpg&fm=jpg",
+    "alt": "Living room with a view"
+    },
+    {
+    "url": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?cs=srgb&dl=pexels-jvdm-1454806.jpg&fm=jpg",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjX5qS0kBjzqMIH6H63BCeXNP2PVG1QZPXQ&s",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bedroom-background-zoom-calls_52683-95239.jpg",
+    "alt": "Cozy bedroom"
+    }
+    ],
+    "description": "A beautiful cottage nestled in the mountains, perfect for a weekend getaway.",
+    "bookedDates": [
+    "2024-10-15",
+    "2024-10-16",
+    "2024-10-17"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "6700626deadc623d9f695e19",
+    "title": "Modern Apartment Downtown",
+    "category": "Luxe",
+    "location": {
+    "city": "New York",
+    "state": "New York",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 250,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 200
+    },
+    "host": {
+    "name": "Sarah Smith",
+    "avatarUrl": "https://example.com/avatar2.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Dryer",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727913600&semt=ais_hybrid",
+    "alt": "Stylish living room"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBvL4PB7zpiZOxITJjq-3HL4OuTNOyN5GWhw&s",
+    "alt": "Bedroom with city view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx-LGmKOVBvXePtzhqM3UQ-fQdRmjm3HYM0g&s",
+    "alt": "Bedroom with city view"
+    },
+    {
+    "url": "https://st4.depositphotos.com/2673929/27256/i/450/depositphotos_272565124-stock-photo-white-and-black-bedroom-with.jpg",
+    "alt": "Bedroom with city view"
+    }
+    ],
+    "description": "A chic modern apartment in the heart of downtown with stunning city views.",
+    "bookedDates": [
+    "2024-10-20",
+    "2024-10-21",
+    "2024-10-22"
+    ],
+    "guestCount": 2
+    },
+    {
+    "_id": "6700626deadc623d9f695e1a",
+    "title": "Beachfront Villa with Pool",
+    "category": "Beachfront",
+    "location": {
+    "city": "Miami",
+    "state": "Florida",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 500,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.7,
+    "reviewsCount": 85
+    },
+    "host": {
+    "name": "Emily Davis",
+    "avatarUrl": "https://example.com/avatar3.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/swimming-pool-with-sea-views_74190-16276.jpg",
+    "alt": "Private pool with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bedroom-with-ocean-view_1268-36011.jpg",
+    "alt": "Luxury bedroom"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hzGRFz_iO767ynqTLUcx8Uc_hlxl6-rgYu3ZkUsFCyk2vzf0fhFlmfpmeMe2kzIj_xM&usqp=CAU",
+    "alt": "Luxury bedroom"
+    }
+    ],
+    "description": "A stunning beachfront villa with a private pool and direct beach access.",
+    "bookedDates": [
+    "2024-11-10",
+    "2024-11-11",
+    "2024-11-12"
+    ],
+    "guestCount": 8
+    },
+    {
+    "_id": "6700626deadc623d9f695e1b",
+    "title": "Rustic Cabin in the Woods",
+    "category": "Countryside",
+    "location": {
+    "city": "Asheville",
+    "state": "North Carolina",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 120,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.6,
+    "reviewsCount": 60
+    },
+    "host": {
+    "name": "Michael Johnson",
+    "avatarUrl": "https://example.com/avatar4.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Dryer"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWOfuVrjQ0EKDRcejNj8zikS4VInKHK2ZGQ&s",
+    "alt": "Cabin with fire pit"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8OnCmFPXq556ySBrC8r55o-2JfYR9HAYhA&s",
+    "alt": "Rustic bedroom"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcIKIJRNpOu_PNCsxgEpXcbP8qWGX6izvCw&s",
+    "alt": "Rustic bedroom"
+    }
+    ],
+    "description": "A cozy cabin in the woods with a fire pit and hot tub for a relaxing retreat.",
+    "bookedDates": [
+    "2024-12-01",
+    "2024-12-02",
+    "2024-12-03"
+    ],
+    "guestCount": 3
+    },
+    {
+    "_id": "6700626deadc623d9f695e1c",
+    "title": "Luxury Villa by the Sea",
+    "category": "Amazing pools",
+    "location": {
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 600,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 150
+    },
+    "host": {
+    "name": "Alice Green",
+    "avatarUrl": "https://example.com/avatar5.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMv_OPYJoRUgDJ5oLWSY_EQIfeIfzds9GRdMtlo9WBJbAqVzAp1R4swgi5EE-N5U82ZUU&usqp=CAU",
+    "alt": "Spacious villa with ocean view"
+    },
+    {
+    "url": "https://static.vecteezy.com/system/resources/previews/023/981/319/large_2x/swimming-pool-in-luxury-villa-with-sea-view-3d-rendering-photo.jpeg",
+    "alt": "Modern bedroom with ocean view"
+    }
+    ],
+    "description": "A luxury villa with an infinity pool overlooking the sea, perfect for a lavish vacation.",
+    "bookedDates": [
+    "2024-12-20",
+    "2024-12-21",
+    "2024-12-22"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "670084efeadc623d9f8aba68",
+    "title": "Cozy Cottage in the Mountains",
+    "category": "Camping",
+    "location": {
+    "city": "Denver",
+    "state": "Colorado",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 150,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 125
+    },
+    "host": {
+    "name": "John Doe",
+    "avatarUrl": "https://example.com/avatar.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7BRHkZkKtxImLCfrO1Nlb_bvdoqepGEQRuw&s",
+    "alt": "Living room with a view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5R2_cKfno2AvDb7YaAz8xM28kfsNs6U-xzmQFCXjnKBSTNbhdDViX3X7FAQcTaidFIQQ&usqp=CAU",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cCNYE2zxtRoCSq3NeFcDjwvwxea3_fnAx7zK-eErYX1B1SSC7O7uTRkwyXH8ehRw41c&usqp=CAU",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/full-shot-adventurous-couple-bivouacking_23-2150562910.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720742400&semt=ais_user",
+    "alt": "Cozy bedroom"
+    }
+    ],
+    "description": "A beautiful cottage nestled in the mountains, perfect for a weekend getaway.",
+    "bookedDates": [
+    "2024-10-15",
+    "2024-10-16",
+    "2024-10-17"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "670084efeadc623d9f8aba69",
+    "title": "Luxurious Island Villa",
+    "category": "Islands",
+    "location": {
+    "city": "Maui",
+    "state": "Hawaii",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 450,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 5,
+    "reviewsCount": 80  
+    },
+    "host": {
+    "name": "Jane Smith",
+    "avatarUrl": "https://example.com/avatar2.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "An exclusive villa on a private island, offering stunning views and luxury amenities.",
+    "bookedDates": [
+    "2024-11-01",
+    "2024-11-02"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6a",
+    "title": "Tree House in the Forest",
+    "category": "Tree Houses",
+    "location": {
+    "city": "Portland",
+    "state": "Oregon",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 120,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.7,
+    "reviewsCount": 200
+    },
+    "host": {
+    "name": "Tom Woods",
+    "avatarUrl": "https://example.com/avatar3.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Dryer"
+    ],
+    "images": [
+    {
+    "url": "https://images.pexels.com/photos/2380249/pexels-photo-2380249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "alt": "Tree house surrounded by forest"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2h9U5KXd16fHCN3MBYNWnOAN04KW8f4gyA&s",
+    "alt": "Tree house surrounded by forest"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/modern-interior-home-bedroom-design_1409-5451.jpg?size=626&ext=jpg&ga=GA1.1.1819120589.1727395200&semt=ais_hybrid",
+    "alt": "Tree house surrounded by forest"
+    }
+    ],
+    "description": "A charming tree house in a serene forest, perfect for nature lovers.",
+    "bookedDates": [
+    "2024-09-20",
+    "2024-09-21",
+    "2024-09-22"
+    ],
+    "guestCount": 2
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6b",
+    "title": "Desert Escape",
+    "category": "Desert",
+    "location": {
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 250,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 85
+    },
+    "host": {
+    "name": "Anna Lee",
+    "avatarUrl": "https://example.com/avatar4.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497272.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717632000&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-bedroom-decorated-with-brazilian-folklore-design_23-2150794007.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeyNGABQOoF2d2Ag9wQod_mXiczhQ-WLP5Xw&s",
+    "alt": "Desert home with pool"
+    }
+    ],
+    "description": "A stylish home in the desert with modern amenities and a refreshing pool.",
+    "bookedDates": [
+    "2024-08-10",
+    "2024-08-11"
+    ],
+    "guestCount": 5
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6c",
+    "title": "Modern Beach House",
+    "category": "Beach",
+    "location": {
+    "city": "Santa Monica",
+    "state": "California",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 400,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.6,
+    "reviewsCount": 220
+    },
+    "host": {
+    "name": "Mark Davis",
+    "avatarUrl": "https://example.com/avatar5.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A contemporary beach house with stunning views of the Pacific Ocean.",
+    "bookedDates": [
+    "2024-07-20",
+    "2024-07-21",
+    "2024-07-22"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6d",
+    "title": "Farmhouse Retreat",
+    "category": "Farms",
+    "location": {
+    "city": "Asheville",
+    "state": "North Carolina",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 200,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.5,
+    "reviewsCount": 95
+    },
+    "host": {
+    "name": "Emily Clark",
+    "avatarUrl": "https://example.com/avatar6.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Kitchen",
+    "Dryer"
+    ],
+    "images": [
+    {
+    "url": "https://images.pexels.com/photos/388830/pexels-photo-388830.jpeg?cs=srgb&dl=pexels-davidmcbee-388830.jpg&fm=jpg",
+    "alt": "Farmhouse with open fields"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7_ulwugTmd0BqfCQi4zP3Ueh5a_UpCrNog&s",
+    "alt": "Living room with a view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREVm_-PxDJIhTPFSU2XJ61vJPOwSsSr7ytbQ&s",
+    "alt": "Living room with a view"
+    }
+    ],
+    "description": "A peaceful farmhouse surrounded by nature, ideal for a relaxing retreat.",
+    "bookedDates": [
+    "2024-06-05",
+    "2024-06-06"
+    ],
+    "guestCount": 8
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6e",
+    "title": "Luxury A-frame Cabin",
+    "category": "A-frames",
+    "location": {
+    "city": "Lake Tahoe",
+    "state": "California",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 350,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 300
+    },
+    "host": {
+    "name": "Paul Carter",
+    "avatarUrl": "https://example.com/avatar7.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A luxurious A-frame cabin with spectacular views of Lake Tahoe.",
+    "bookedDates": [
+    "2024-12-25",
+    "2024-12-26"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "670084efeadc623d9f8aba6f",
+    "title": "Oceanfront Mansion",
+    "category": "Mansions",
+    "location": {
+    "city": "Malibu",
+    "state": "California",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 1200,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 5,
+    "reviewsCount": 500
+    },
+    "host": {
+    "name": "Robert Green",
+    "avatarUrl": "https://example.com/avatar8.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A sprawling oceanfront mansion with every luxury imaginable.",
+    "bookedDates": [
+    "2024-07-01",
+    "2024-07-02"
+    ],
+    "guestCount": 10
+    },
+    {
+    "_id": "670084efeadc623d9f8aba70",
+    "title": "Tiny Home in the Hills",
+    "category": "Tiny Homes",
+    "location": {
+    "city": "Austin",
+    "state": "Texas",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 90,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.4,
+    "reviewsCount": 70
+    },
+    "host": {
+    "name": "Laura Thompson",
+    "avatarUrl": "https://example.com/avatar9.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Kitchen",
+    "Dryer"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/3d-rendering-wooden-house_23-2151264475.jpg",
+    "alt": "Tiny home with hillside view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhi9VsvyRb6lS_aoQ5J4vjLhJVh95cFUvFag&s",
+    "alt": "Living room with a view"
+    }
+    ],
+    "description": "A minimalist tiny home with modern amenities and stunning views.",
+    "bookedDates": [
+    "2024-08-15",
+    "2024-08-16"
+    ],
+    "guestCount": 2
+    },
+    {
+    "_id": "670084efeadc623d9f8aba71",
+    "title": "Penthouse in the City",
+    "category": "Urban",
+    "location": {
+    "city": "New York",
+    "state": "New York",
+    "country": "USA"
+    },
+    "price": {
+    "perNight": 700,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 400
+    },
+    "host": {
+    "name": "Michael Brown",
+    "avatarUrl": "https://example.com/avatar10.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A stunning penthouse in the heart of the city with breathtaking skyline views.",
+    "bookedDates": [
+    "2024-09-10",
+    "2024-09-11"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "67008761eadc623d9f8d2afa",
+    "title": "Charming Bungalow in Bali",
+    "category": "Bungalows",
+    "location": {
+    "city": "Ubud",
+    "state": "Bali",
+    "country": "Indonesia"
+    },
+    "price": {
+    "perNight": 180,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 150
+    },
+    "host": {
+    "name": "Made Kartika",
+    "avatarUrl": "https://example.com/avatar11.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A serene bungalow in the heart of Ubud, surrounded by rice fields.",
+    "bookedDates": [
+    "2024-07-05",
+    "2024-07-06"
+    ],
+    "guestCount": 3
+    },
+    {
+    "_id": "67008761eadc623d9f8d2afb",
+    "title": "Luxury Chalet in the Swiss Alps",
+    "category": "Chalets",
+    "location": {
+    "city": "Zermatt",
+    "state": "Valais",
+    "country": "Switzerland"
+    },
+    "price": {
+    "perNight": 850,
+    "currency": "CHF"
+    },
+    "rating": {
+    "average": 5,
+    "reviewsCount": 60
+    },
+    "host": {
+    "name": "Hans Müller",
+    "avatarUrl": "https://example.com/avatar12.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Hot Tub",
+    "Fireplace"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7BRHkZkKtxImLCfrO1Nlb_bvdoqepGEQRuw&s",
+    "alt": "Living room with a view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5R2_cKfno2AvDb7YaAz8xM28kfsNs6U-xzmQFCXjnKBSTNbhdDViX3X7FAQcTaidFIQQ&usqp=CAU",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cCNYE2zxtRoCSq3NeFcDjwvwxea3_fnAx7zK-eErYX1B1SSC7O7uTRkwyXH8ehRw41c&usqp=CAU",
+    "alt": "Cozy bedroom"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/full-shot-adventurous-couple-bivouacking_23-2150562910.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720742400&semt=ais_user",
+    "alt": "Cozy bedroom"
+    }
+    ],
+    "description": "A luxurious ski chalet with breathtaking views of the Matterhorn.",
+    "bookedDates": [
+    "2024-12-24",
+    "2024-12-25"
+    ],
+    "guestCount": 8
+    },
+    {
+    "_id": "67008761eadc623d9f8d2afc",
+    "title": "Modern Apartment in Tokyo",
+    "category": "Urban",
+    "location": {
+    "city": "Tokyo",
+    "state": "Tokyo",
+    "country": "Japan"
+    },
+    "price": {
+    "perNight": 320,
+    "currency": "JPY"
+    },
+    "rating": {
+    "average": 4.7,
+    "reviewsCount": 120
+    },
+    "host": {
+    "name": "Satoshi Nakamura",
+    "avatarUrl": "https://example.com/avatar13.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Air Conditioning",
+    "Kitchen"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A sleek, modern apartment in the bustling center of Tokyo.",
+    "bookedDates": [
+    "2024-06-12",
+    "2024-06-13"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "67008761eadc623d9f8d2afd",
+    "title": "Beachfront Villa in the Maldives",
+    "category": "Villas",
+    "location": {
+    "city": "Male",
+    "state": "Kaafu Atoll",
+    "country": "Maldives"
+    },
+    "price": {
+    "perNight": 1200,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 5,
+    "reviewsCount": 40
+    },
+    "host": {
+    "name": "Aishath Ibrahim",
+    "avatarUrl": "https://example.com/avatar14.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Private Beach"
+    ],
+    "images": [
+    {
+    "url": "https://images.pexels.com/photos/2380249/pexels-photo-2380249.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "alt": "Tree house surrounded by forest"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm2h9U5KXd16fHCN3MBYNWnOAN04KW8f4gyA&s",
+    "alt": "Tree house surrounded by forest"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/modern-interior-home-bedroom-design_1409-5451.jpg?size=626&ext=jpg&ga=GA1.1.1819120589.1727395200&semt=ais_hybrid",
+    "alt": "Tree house surrounded by forest"
+    }
+    ],
+    "description": "A private villa with direct access to a stunning white sand beach.",
+    "bookedDates": [
+    "2024-10-01",
+    "2024-10-02"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "67008761eadc623d9f8d2afe",
+    "title": "Rustic Cottage in Tuscany",
+    "category": "Cottages",
+    "location": {
+    "city": "Florence",
+    "state": "Tuscany",
+    "country": "Italy"
+    },
+    "price": {
+    "perNight": 220,
+    "currency": "EUR"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 180
+    },
+    "host": {
+    "name": "Giovanni Rossi",
+    "avatarUrl": "https://example.com/avatar15.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Kitchen",
+    "Garden"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497272.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717632000&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-bedroom-decorated-with-brazilian-folklore-design_23-2150794007.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeyNGABQOoF2d2Ag9wQod_mXiczhQ-WLP5Xw&s",
+    "alt": "Desert home with pool"
+    }
+    ],
+    "description": "A charming rustic cottage surrounded by the picturesque Tuscan countryside.",
+    "bookedDates": [
+    "2024-09-10",
+    "2024-09-11"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "67008761eadc623d9f8d2aff",
+    "title": "Penthouse in Cape Town",
+    "category": "Urban",
+    "location": {
+    "city": "Cape Town",
+    "state": "Western Cape",
+    "country": "South Africa"
+    },
+    "price": {
+    "perNight": 500,
+    "currency": "ZAR"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 75
+    },
+    "host": {
+    "name": "Nelisiwe Dlamini",
+    "avatarUrl": "https://example.com/avatar16.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Air Conditioning"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A luxurious penthouse with panoramic views of the Atlantic Ocean.",
+    "bookedDates": [
+    "2024-08-15",
+    "2024-08-16"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b00",
+    "title": "Safari Lodge in Kenya",
+    "category": "Lodges",
+    "location": {
+    "city": "Nairobi",
+    "state": "Nairobi County",
+    "country": "Kenya"
+    },
+    "price": {
+    "perNight": 600,
+    "currency": "KES"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 90
+    },
+    "host": {
+    "name": "David Mwangi",
+    "avatarUrl": "https://example.com/avatar17.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Private Safari",
+    "Outdoor Shower"
+    ],
+    "images": [
+    {
+    "url": "https://images.pexels.com/photos/388830/pexels-photo-388830.jpeg?cs=srgb&dl=pexels-davidmcbee-388830.jpg&fm=jpg",
+    "alt": "Farmhouse with open fields"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7_ulwugTmd0BqfCQi4zP3Ueh5a_UpCrNog&s",
+    "alt": "Living room with a view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREVm_-PxDJIhTPFSU2XJ61vJPOwSsSr7ytbQ&s",
+    "alt": "Living room with a view"
+    }
+    ],
+    "description": "An exclusive safari lodge offering unparalleled views of African wildlife.",
+    "bookedDates": [
+    "2024-11-20",
+    "2024-11-21"
+    ],
+    "guestCount": 4
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b01",
+    "title": "Parisian Loft with Eiffel View",
+    "category": "Lofts",
+    "location": {
+    "city": "Paris",
+    "state": "Ile-de-France",
+    "country": "France"
+    },
+    "price": {
+    "perNight": 450,
+    "currency": "EUR"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 130
+    },
+    "host": {
+    "name": "Marie Dubois",
+    "avatarUrl": "https://example.com/avatar18.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Kitchen",
+    "Elevator"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A chic Parisian loft with stunning views of the Eiffel Tower.",
+    "bookedDates": [
+    "2024-09-25",
+    "2024-09-26"
+    ],
+    "guestCount": 2
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b02",
+    "title": "Castle Stay in Scotland",
+    "category": "Castles",
+    "location": {
+    "city": "Edinburgh",
+    "state": "Scotland",
+    "country": "United Kingdom"
+    },
+    "price": {
+    "perNight": 900,
+    "currency": "GBP"
+    },
+    "rating": {
+    "average": 5,
+    "reviewsCount": 50
+    },
+    "host": {
+    "name": "Fiona MacLeod",
+    "avatarUrl": "https://example.com/avatar19.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Fireplace",
+    "Garden"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/3d-rendering-wooden-house_23-2151264475.jpg",
+    "alt": "Tiny home with hillside view"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhi9VsvyRb6lS_aoQ5J4vjLhJVh95cFUvFag&s",
+    "alt": "Living room with a view"
+    }
+    ],
+    "description": "Stay in a historic Scottish castle surrounded by breathtaking scenery.",
+    "bookedDates": [
+    "2024-10-15",
+    "2024-10-16"
+    ],
+    "guestCount": 10
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b03",
+    "title": "Treehouse in Costa Rica",
+    "category": "Treehouses",
+    "location": {
+    "city": "Monteverde",
+    "state": "Puntarenas",
+    "country": "Costa Rica"
+    },
+    "price": {
+    "perNight": 250,
+    "currency": "USD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 110
+    },
+    "host": {
+    "name": "Carlos Sanchez",
+    "avatarUrl": "https://example.com/avatar20.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Hiking Trails",
+    "Outdoor Shower"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "An eco-friendly treehouse nestled in the lush Monteverde cloud forest.",
+    "bookedDates": [
+    "2024-07-20",
+    "2024-07-21"
+    ],
+    "guestCount": 2
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b04",
+    "title": "Vineyard Estate in Mendoza",
+    "category": "Estates",
+    "location": {
+    "city": "Mendoza",
+    "state": "Mendoza Province",
+    "country": "Argentina"
+    },
+    "price": {
+    "perNight": 750,
+    "currency": "ARS"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 95
+    },
+    "host": {
+    "name": "Diego Fernandez",
+    "avatarUrl": "https://example.com/avatar21.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Wine Tours",
+    "Pool"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497272.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717632000&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-bedroom-decorated-with-brazilian-folklore-design_23-2150794007.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user",
+    "alt": "Desert home with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeyNGABQOoF2d2Ag9wQod_mXiczhQ-WLP5Xw&s",
+    "alt": "Desert home with pool"
+    }
+    ],
+    "description": "A beautiful vineyard estate offering wine tours and a relaxing atmosphere.",
+    "bookedDates": [
+    "2024-11-01",
+    "2024-11-02"
+    ],
+    "guestCount": 6
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b05",
+    "title": "Mountain Cabin in Banff",
+    "category": "Cabins",
+    "location": {
+    "city": "Banff",
+    "state": "Alberta",
+    "country": "Canada"
+    },
+    "price": {
+    "perNight": 400,
+    "currency": "CAD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 85
+    },
+    "host": {
+    "name": "Emily Johnson",
+    "avatarUrl": "https://example.com/avatar22.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Fireplace",
+    "Hot Tub"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A cozy mountain cabin with stunning views of the Canadian Rockies.",
+    "bookedDates": [
+    "2024-12-05",
+    "2024-12-06"
+    ],
+    "guestCount": 5
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b06",
+    "title": "Desert Camp in Wadi Rum",
+    "category": "Camps",
+    "location": {
+    "city": "Wadi Rum",
+    "state": "Aqaba Governorate",
+    "country": "Jordan"
+    },
+    "price": {
+    "perNight": 300,
+    "currency": "JOD"
+    },
+    "rating": {
+    "average": 4.7,
+    "reviewsCount": 45
+    },
+    "host": {
+    "name": "Ali Abdullah",
+    "avatarUrl": "https://example.com/avatar23.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Camel Rides",
+    "Stargazing"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A desert camp offering an authentic Bedouin experience under the stars.",
+    "bookedDates": [
+    "2024-10-20",
+    "2024-10-21"
+    ],
+    "guestCount": 3
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b07",
+    "title": "Beach House in Sydney",
+    "category": "Houses",
+    "location": {
+    "city": "Sydney",
+    "state": "New South Wales",
+    "country": "Australia"
+    },
+    "price": {
+    "perNight": 600,
+    "currency": "AUD"
+    },
+    "rating": {
+    "average": 4.9,
+    "reviewsCount": 160
+    },
+    "host": {
+    "name": "Sophia Williams",
+    "avatarUrl": "https://example.com/avatar24.jpg",
+    "isSuperhost": false
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Pool",
+    "Beach Access"
+    ],
+    "images": [
+    {
+    "url": "https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497260.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://images.pexels.com/photos/221471/pexels-photo-221471.jpeg?cs=srgb&dl=pexels-pixabay-221471.jpg&fm=jpg",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A modern beach house with private access to Sydney's famous beaches.",
+    "bookedDates": [
+    "2024-09-30",
+    "2024-10-01"
+    ],
+    "guestCount": 8
+    },
+    {
+    "_id": "67008761eadc623d9f8d2b08",
+    "title": "Historic Riad in Marrakech",
+    "category": "Riads",
+    "location": {
+    "city": "Marrakech",
+    "state": "Marrakech-Safi",
+    "country": "Morocco"
+    },
+    "price": {
+    "perNight": 270,
+    "currency": "MAD"
+    },
+    "rating": {
+    "average": 4.8,
+    "reviewsCount": 75
+    },
+    "host": {
+    "name": "Fatima El Idrissi",
+    "avatarUrl": "https://example.com/avatar25.jpg",
+    "isSuperhost": true
+    },
+    "amenities": [
+    "Wi-Fi",
+    "Courtyard",
+    "Hammam"
+    ],
+    "images": [
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgXMChEAL9gJkeyLxVolta3UMEEzJkMkFSw&s",
+    "alt": "Modern beach house with ocean view"
+    },
+    {
+    "url": "https://img.freepik.com/free-photo/bed-with-sea-view_1137-127.jpg",
+    "alt": "Beachside villa with pool"
+    },
+    {
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57F4nQTHdQ--RmorGxk7eMvnOqehMXrO6AA&s",
+    "alt": "Beachside villa with pool"
+    }
+    ],
+    "description": "A beautifully restored riad in the heart of the Marrakech medina.",
+    "bookedDates": [
+    "2024-07-18",
+    "2024-07-19"
+    ],
+    "guestCount": 4
+    }
+    ,{
+        "title": "Cozy Cottage in the Mountains",
+        "category": "Camping",
+        "location": {
+          "city": "Denver",
+          "state": "Colorado",
+          "country": "USA"
+        },
+        "price": {
+          "perNight": 150,
+          "currency": "USD"
+        },
+        "rating": {
+          "average": 4.8,
+          "reviewsCount": 125
+        },
+        "host": {
+          "name": "John Doe",
+          "avatarUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+          "isSuperhost": true
+        },
+        "amenities": [
+          "Wi-Fi",
+          "Air Conditioning",
+          "Kitchen",
+          "Fireplace",
+          "TV",
+            "Parking",
+            "Gym"
+        ],
+        "images": [
+          {
+            "url": "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?cs=srgb&dl=pexels-fotoaibe-1571458.jpg&fm=jpg",
+            "alt": "Living room with a view"
+          },
+          {
+            "url": "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?cs=srgb&dl=pexels-jvdm-1454806.jpg&fm=jpg",
+            "alt": "Cozy bedroom"
+          },
+          {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjX5qS0kBjzqMIH6H63BCeXNP2PVG1QZPXQ&s",
+            "alt": "Cozy bedroom"
+          },
+          {
+            "url": "https://img.freepik.com/free-photo/bedroom-background-zoom-calls_52683-95239.jpg",
+            "alt": "Cozy bedroom"
+          }
+        ],
+        "description": "A beautiful cottage nestled in the mountains, perfect for a weekend getaway.",
+        "bookedDates": ["2024-10-15", "2024-10-16", "2024-10-17"],
+        "guestCount": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 1
+      }
+      
+    ]
